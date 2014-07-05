@@ -17,12 +17,12 @@ syntax  match  TodoProject    ' +[^[:blank:]]\+'          contains=NONE
 syntax  match  TodoContext    ' @[^[:blank:]]\+'          contains=NONE
 
 highlight  default  link  TodoDone       Comment
-highlight  default  link  TodoPriorityA  Special
-highlight  default  link  TodoPriorityB  Statement
+highlight  default  link  TodoPriorityA  PreProc
+highlight  default  link  TodoPriorityB  Type
 highlight  default  link  TodoPriorityC  Identifier
-highlight  default  link  TodoPriorityD  Constant
-highlight  default  link  TodoDate       PreProc
-" highlight  default  link  TodoProject    Constant
-" highlight  default  link  TodoContext    Constant
+highlight  default  link  TodoPriorityD  Statement
+highlight  default  link  TodoDate       Special
+highlight  default  link  TodoProject    Comment
+highlight  default  link  TodoContext    Comment
 
 let b:current_syntax = "todo"
