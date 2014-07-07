@@ -5,3 +5,4 @@
 
 autocmd BufNewFile,BufRead [Tt]odo.txt set filetype=todo
 autocmd BufNewFile,BufRead [Ll]ater.txt set filetype=todo
+autocmd BufNewFile,BufRead [Aa]uto[matic].txt set filetype=todo
